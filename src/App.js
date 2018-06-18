@@ -39,6 +39,15 @@ class App extends Component {
 	            					value_area: 800
 	            				}
 	            			}
+	            		},
+	            		interactivity: {
+	            			detect_on: 'canvas',
+	            			events: {
+	            				onhover: {
+	            					enable: true,
+	            					mode: 'repulse'
+	            				}
+	            			}
 	            		}
 	            	}}
 	            />
